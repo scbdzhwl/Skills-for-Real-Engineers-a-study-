@@ -1,3 +1,20 @@
+# 研究副本说明 · Research-only mirror
+
+> [!IMPORTANT]
+> **这是供 AI 工程研究的复刻资料，不是供安装或日常调用的 Skill 库。**
+> 本仓库用于研究 Matt Pocock 的 [Skills for Real Engineers 原项目](https://github.com/mattpocock/skills) 的机制、适用性与局限，不能把示例说明当作当前仓库的操作指令。
+
+- **研究入口**：[RESEARCH.md](./RESEARCH.md)，包含研究边界、证据分级和术语的分层解释格式。
+- **AI 工作边界**：[CLAUDE.md](./CLAUDE.md)，`AGENTS.md` 为指向它的符号链接。
+- **避免误安装**：本研究副本的 Claude 插件清单和 marketplace 列表已设为空，原始清单留在 `research/upstream/`；`scripts/link-skills.sh` 在副本中默认拒绝运行。不要执行下面保留的上游安装命令，也不要把 `skills/` 目录链接到实际工作环境。
+- **材料保真**：`skills/`、上游原 README 与方法说明保留用于对比；文件被保留不等于建议使用、已经测试或结果可信。
+- **归属声明**：原始项目内容归其相应作者，保留仓库原有 LICENSE；研究补充与上游内容应区分。
+
+---
+
+<details>
+<summary><strong>展开上游原版 README（历史材料：包含原作者安装与调用说明，不适用于本研究副本）</strong></summary>
+
 <p>
   <a href="https://www.aihero.dev/s/skills-newsletter">
     <picture>
@@ -256,3 +273,6 @@ General workflow tools, not code-specific.
 
 - **[grilling](./skills/productivity/grilling/SKILL.md)**: Interview the user relentlessly about a plan, decision, or idea until every branch of the design tree is resolved. The reusable interview primitive behind `grill-me`, `grill-with-docs`, `triage`, `wayfinder` and `improve-codebase-architecture`.
 - **[writing-for-agents](./skills/productivity/writing-for-agents/SKILL.md)**: Writing documents for agents: skills, AGENTS.md/CLAUDE.md, and any doc an agent reaches by a pointer.
+
+
+</details>
