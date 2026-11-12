@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+# RESEARCH-ONLY SAFETY LOCK: This mirror is for analysis, not installation.
+# Original upstream implementation remains below for reading and comparison.
+echo "Research-only mirror: linking skills into user agent directories is disabled." >&2
+echo "Study the source or test the original upstream project in a disposable environment." >&2
+exit 2
+
 set -euo pipefail
 
 # NOTE: This is a dev-only script, intended for use by maintainers of this repo.
